@@ -31,8 +31,7 @@ struct HomeView: View {
                             Label("Escanear", systemImage: "qrcode.viewfinder")
                         }
                         .environmentObject(viewModel)
-                        .tag(1)
-                    
+                        .tag(1)   
                 }
             }
             .background(Color(UIColor(red: 33/255, green: 18/255, blue: 49/255, alpha: 1.0)))

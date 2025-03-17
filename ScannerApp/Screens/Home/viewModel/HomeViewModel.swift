@@ -9,7 +9,6 @@ import Foundation
 
 class HomeViewModel: ObservableObject {
     
-    //    @Published var showToast: Bool = false
     @Published var qrCodes: [QRModel] = []
     @Published var qrCodesString: [String] = []
     
@@ -45,7 +44,7 @@ class HomeViewModel: ObservableObject {
     
     func deleteItems(at offsets: IndexSet, modelContext: ModelContext) {
         for index in offsets {
-            let codeToDelete = qrCodes[index] // Obtén el objeto a eliminar
+            let codeToDelete = qrCodes[index]
             modelContext.delete(codeToDelete)
         }
         

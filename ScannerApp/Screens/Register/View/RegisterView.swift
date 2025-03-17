@@ -58,7 +58,7 @@ struct RegisterView: View {
             
             if showToast {
                             ToastView(message: "Registro exitoso!")
-                                .zIndex(1) // Asegura que esté encima de todo
+                                .zIndex(1)
                         }
         }.animation(.easeIn, value: showToast)
         
