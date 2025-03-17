@@ -16,7 +16,6 @@ target 'ScannerApp' do
   end
 
   target 'ScannerAppUITests' do
-    # Pods for testing
   end
 
 end
