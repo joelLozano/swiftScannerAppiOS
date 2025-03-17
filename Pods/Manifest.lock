@@ -1,0 +1,22 @@
+PODS:
+  - Flutter (1.0.0)
+  - FlutterPluginRegistrant (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - Flutter (from `../scanner_detail/.ios/Flutter`)
+  - FlutterPluginRegistrant (from `../scanner_detail/.ios/Flutter/FlutterPluginRegistrant`)
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: "../scanner_detail/.ios/Flutter"
+  FlutterPluginRegistrant:
+    :path: "../scanner_detail/.ios/Flutter/FlutterPluginRegistrant"
+
+SPEC CHECKSUMS:
+  Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
+  FlutterPluginRegistrant: 31c463909264601dccf8080d30b71b19413ad188
+
+PODFILE CHECKSUM: 04f5839a9652f689ee5912ee7a856443ab83a359
+
+COCOAPODS: 1.16.2

@@ -1,0 +1,720 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		28C349C3A26B20591DEBBF1B /* Pods_ScannerApp_ScannerAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8A9C1F3130A5A2DD2F57ADC /* Pods_ScannerApp_ScannerAppUITests.framework */; };
+		509E81E048061F672F77FA57 /* Pods_ScannerApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F8DAA1518CDE461BEB77227 /* Pods_ScannerApp.framework */; };
+		65BD7E29B29E3169E801E220 /* Pods_ScannerAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFDAFA018C6E2FF95FEE46AD /* Pods_ScannerAppTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7B476E322D84E8F500D6C127 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B476E172D84E8F400D6C127 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7B476E1E2D84E8F400D6C127;
+			remoteInfo = ScannerApp;
+		};
+		7B476E3C2D84E8F500D6C127 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B476E172D84E8F400D6C127 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7B476E1E2D84E8F400D6C127;
+			remoteInfo = ScannerApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2485AE4C94A34D2938309BDB /* Pods-ScannerAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScannerAppTests.release.xcconfig"; path = "Target Support Files/Pods-ScannerAppTests/Pods-ScannerAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		2D5E979378786BD9B1397427 /* Pods-ScannerApp-ScannerAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScannerApp-ScannerAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-ScannerApp-ScannerAppUITests/Pods-ScannerApp-ScannerAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2E23024A2A006AFE91AE2ED9 /* Pods-ScannerApp-ScannerAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScannerApp-ScannerAppUITests.release.xcconfig"; path = "Target Support Files/Pods-ScannerApp-ScannerAppUITests/Pods-ScannerApp-ScannerAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		302C03E834613B45FDF0DD2A /* Pods-ScannerAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScannerAppTests.debug.xcconfig"; path = "Target Support Files/Pods-ScannerAppTests/Pods-ScannerAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		54D93775CBEC7ECF1EB0AFFE /* Pods-ScannerApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScannerApp.release.xcconfig"; path = "Target Support Files/Pods-ScannerApp/Pods-ScannerApp.release.xcconfig"; sourceTree = "<group>"; };
+		5F8DAA1518CDE461BEB77227 /* Pods_ScannerApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ScannerApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B293DFD06EB2E09F52C1C93 /* Pods-ScannerApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScannerApp.debug.xcconfig"; path = "Target Support Files/Pods-ScannerApp/Pods-ScannerApp.debug.xcconfig"; sourceTree = "<group>"; };
+		7B476E1F2D84E8F400D6C127 /* ScannerApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScannerApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B476E312D84E8F500D6C127 /* ScannerAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScannerAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B476E3B2D84E8F500D6C127 /* ScannerAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScannerAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8A9C1F3130A5A2DD2F57ADC /* Pods_ScannerApp_ScannerAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ScannerApp_ScannerAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFDAFA018C6E2FF95FEE46AD /* Pods_ScannerAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ScannerAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		7B476E8B2D8708EE00D6C127 /* Exceptions for "ScannerApp" folder in "ScannerApp" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"Info-Debug.plist",
+				"Info-Release.plist",
+			);
+			target = 7B476E1E2D84E8F400D6C127 /* ScannerApp */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		7B476E212D84E8F400D6C127 /* ScannerApp */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				7B476E8B2D8708EE00D6C127 /* Exceptions for "ScannerApp" folder in "ScannerApp" target */,
+			);
+			path = ScannerApp;
+			sourceTree = "<group>";
+		};
+		7B476E342D84E8F500D6C127 /* ScannerAppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ScannerAppTests;
+			sourceTree = "<group>";
+		};
+		7B476E3E2D84E8F500D6C127 /* ScannerAppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ScannerAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7B476E1C2D84E8F400D6C127 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				509E81E048061F672F77FA57 /* Pods_ScannerApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B476E2E2D84E8F500D6C127 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65BD7E29B29E3169E801E220 /* Pods_ScannerAppTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B476E382D84E8F500D6C127 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28C349C3A26B20591DEBBF1B /* Pods_ScannerApp_ScannerAppUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		066FA51C4061FF42ACEDE3DF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6B293DFD06EB2E09F52C1C93 /* Pods-ScannerApp.debug.xcconfig */,
+				54D93775CBEC7ECF1EB0AFFE /* Pods-ScannerApp.release.xcconfig */,
+				2D5E979378786BD9B1397427 /* Pods-ScannerApp-ScannerAppUITests.debug.xcconfig */,
+				2E23024A2A006AFE91AE2ED9 /* Pods-ScannerApp-ScannerAppUITests.release.xcconfig */,
+				302C03E834613B45FDF0DD2A /* Pods-ScannerAppTests.debug.xcconfig */,
+				2485AE4C94A34D2938309BDB /* Pods-ScannerAppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7B476E162D84E8F400D6C127 = {
+			isa = PBXGroup;
+			children = (
+				7B476E212D84E8F400D6C127 /* ScannerApp */,
+				7B476E342D84E8F500D6C127 /* ScannerAppTests */,
+				7B476E3E2D84E8F500D6C127 /* ScannerAppUITests */,
+				7B476E202D84E8F400D6C127 /* Products */,
+				066FA51C4061FF42ACEDE3DF /* Pods */,
+				86509299DC2E6D116810B1C0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7B476E202D84E8F400D6C127 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7B476E1F2D84E8F400D6C127 /* ScannerApp.app */,
+				7B476E312D84E8F500D6C127 /* ScannerAppTests.xctest */,
+				7B476E3B2D84E8F500D6C127 /* ScannerAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		86509299DC2E6D116810B1C0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5F8DAA1518CDE461BEB77227 /* Pods_ScannerApp.framework */,
+				B8A9C1F3130A5A2DD2F57ADC /* Pods_ScannerApp_ScannerAppUITests.framework */,
+				EFDAFA018C6E2FF95FEE46AD /* Pods_ScannerAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7B476E1E2D84E8F400D6C127 /* ScannerApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B476E452D84E8F500D6C127 /* Build configuration list for PBXNativeTarget "ScannerApp" */;
+			buildPhases = (
+				F12193D2D494A6392D1B6289 /* [CP] Check Pods Manifest.lock */,
+				800C26BC0A0275CB25E24D1A /* [CP-User] Run Flutter Build scanner_detail Script */,
+				7B476E1B2D84E8F400D6C127 /* Sources */,
+				7B476E1C2D84E8F400D6C127 /* Frameworks */,
+				7B476E1D2D84E8F400D6C127 /* Resources */,
+				DF82A1231AA0C4C74486E015 /* [CP-User] Embed Flutter Build scanner_detail Script */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				7B476E212D84E8F400D6C127 /* ScannerApp */,
+			);
+			name = ScannerApp;
+			productName = ScannerApp;
+			productReference = 7B476E1F2D84E8F400D6C127 /* ScannerApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7B476E302D84E8F500D6C127 /* ScannerAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B476E482D84E8F500D6C127 /* Build configuration list for PBXNativeTarget "ScannerAppTests" */;
+			buildPhases = (
+				1E0AE74EDD22883EF66DF2F2 /* [CP] Check Pods Manifest.lock */,
+				7B476E2D2D84E8F500D6C127 /* Sources */,
+				7B476E2E2D84E8F500D6C127 /* Frameworks */,
+				7B476E2F2D84E8F500D6C127 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7B476E332D84E8F500D6C127 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				7B476E342D84E8F500D6C127 /* ScannerAppTests */,
+			);
+			name = ScannerAppTests;
+			productName = ScannerAppTests;
+			productReference = 7B476E312D84E8F500D6C127 /* ScannerAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7B476E3A2D84E8F500D6C127 /* ScannerAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B476E4B2D84E8F500D6C127 /* Build configuration list for PBXNativeTarget "ScannerAppUITests" */;
+			buildPhases = (
+				152A4B0CE2D39ABDBE5EDE7C /* [CP] Check Pods Manifest.lock */,
+				7B476E372D84E8F500D6C127 /* Sources */,
+				7B476E382D84E8F500D6C127 /* Frameworks */,
+				7B476E392D84E8F500D6C127 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7B476E3D2D84E8F500D6C127 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				7B476E3E2D84E8F500D6C127 /* ScannerAppUITests */,
+			);
+			name = ScannerAppUITests;
+			productName = ScannerAppUITests;
+			productReference = 7B476E3B2D84E8F500D6C127 /* ScannerAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7B476E172D84E8F400D6C127 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					7B476E1E2D84E8F400D6C127 = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					7B476E302D84E8F500D6C127 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 7B476E1E2D84E8F400D6C127;
+					};
+					7B476E3A2D84E8F500D6C127 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 7B476E1E2D84E8F400D6C127;
+					};
+				};
+			};
+			buildConfigurationList = 7B476E1A2D84E8F400D6C127 /* Build configuration list for PBXProject "ScannerApp" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7B476E162D84E8F400D6C127;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 7B476E202D84E8F400D6C127 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7B476E1E2D84E8F400D6C127 /* ScannerApp */,
+				7B476E302D84E8F500D6C127 /* ScannerAppTests */,
+				7B476E3A2D84E8F500D6C127 /* ScannerAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7B476E1D2D84E8F400D6C127 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B476E2F2D84E8F500D6C127 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B476E392D84E8F500D6C127 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		152A4B0CE2D39ABDBE5EDE7C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ScannerApp-ScannerAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1E0AE74EDD22883EF66DF2F2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ScannerAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		800C26BC0A0275CB25E24D1A /* [CP-User] Run Flutter Build scanner_detail Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "[CP-User] Run Flutter Build scanner_detail Script";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\nset -u\nsource \"${SRCROOT}/../scanner_detail/.ios/Flutter/flutter_export_environment.sh\"\nexport VERBOSE_SCRIPT_LOGGING=1 && \"$FLUTTER_ROOT\"/packages/flutter_tools/bin/xcode_backend.sh build\n";
+		};
+		DF82A1231AA0C4C74486E015 /* [CP-User] Embed Flutter Build scanner_detail Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "[CP-User] Embed Flutter Build scanner_detail Script";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\nset -u\nsource \"${SRCROOT}/../scanner_detail/.ios/Flutter/flutter_export_environment.sh\"\nexport VERBOSE_SCRIPT_LOGGING=1 && \"$FLUTTER_ROOT\"/packages/flutter_tools/bin/xcode_backend.sh embed_and_thin";
+		};
+		F12193D2D494A6392D1B6289 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ScannerApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7B476E1B2D84E8F400D6C127 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B476E2D2D84E8F500D6C127 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B476E372D84E8F500D6C127 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7B476E332D84E8F500D6C127 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7B476E1E2D84E8F400D6C127 /* ScannerApp */;
+			targetProxy = 7B476E322D84E8F500D6C127 /* PBXContainerItemProxy */;
+		};
+		7B476E3D2D84E8F500D6C127 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7B476E1E2D84E8F400D6C127 /* ScannerApp */;
+			targetProxy = 7B476E3C2D84E8F500D6C127 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7B476E432D84E8F500D6C127 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7B476E442D84E8F500D6C127 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7B476E462D84E8F500D6C127 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B293DFD06EB2E09F52C1C93 /* Pods-ScannerApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ScannerApp/Preview Content\"";
+				DEVELOPMENT_TEAM = D95Z9FG793;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ScannerApp/Info-$(CONFIGURATION).plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Se necesita acceso a la cámara para escanear códigos QR.";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Se requiere Face ID para autenticación rápida y segura.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.com.ScannerApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7B476E472D84E8F500D6C127 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54D93775CBEC7ECF1EB0AFFE /* Pods-ScannerApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ScannerApp/Preview Content\"";
+				DEVELOPMENT_TEAM = D95Z9FG793;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ScannerApp/Info-$(CONFIGURATION).plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Se necesita acceso a la cámara para escanear códigos QR.";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Se requiere Face ID para autenticación rápida y segura.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.com.ScannerApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7B476E492D84E8F500D6C127 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 302C03E834613B45FDF0DD2A /* Pods-ScannerAppTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.com.ScannerAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScannerApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ScannerApp";
+			};
+			name = Debug;
+		};
+		7B476E4A2D84E8F500D6C127 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2485AE4C94A34D2938309BDB /* Pods-ScannerAppTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.com.ScannerAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScannerApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ScannerApp";
+			};
+			name = Release;
+		};
+		7B476E4C2D84E8F500D6C127 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D5E979378786BD9B1397427 /* Pods-ScannerApp-ScannerAppUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.com.ScannerAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ScannerApp;
+			};
+			name = Debug;
+		};
+		7B476E4D2D84E8F500D6C127 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E23024A2A006AFE91AE2ED9 /* Pods-ScannerApp-ScannerAppUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.com.ScannerAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ScannerApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7B476E1A2D84E8F400D6C127 /* Build configuration list for PBXProject "ScannerApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B476E432D84E8F500D6C127 /* Debug */,
+				7B476E442D84E8F500D6C127 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B476E452D84E8F500D6C127 /* Build configuration list for PBXNativeTarget "ScannerApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B476E462D84E8F500D6C127 /* Debug */,
+				7B476E472D84E8F500D6C127 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B476E482D84E8F500D6C127 /* Build configuration list for PBXNativeTarget "ScannerAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B476E492D84E8F500D6C127 /* Debug */,
+				7B476E4A2D84E8F500D6C127 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B476E4B2D84E8F500D6C127 /* Build configuration list for PBXNativeTarget "ScannerAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B476E4C2D84E8F500D6C127 /* Debug */,
+				7B476E4D2D84E8F500D6C127 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7B476E172D84E8F400D6C127 /* Project object */;
+}
